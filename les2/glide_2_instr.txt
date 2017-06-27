@@ -1,0 +1,17 @@
+### Glide 2 Exercise Teaching Material
+
+# Teach about getting the x position and y position
+From the previous lesson, we found that getting the x position of the sprite was important in many aspects of the doodle jump game.
+*Show them the x-position, y-position, and direction blocks*
+In Sketch 2 there are ways to identify the x position and y position.
+
+In this exercise, we will practice moving by gliding the cat from one location to another using the arrow keys!
+
+Note that there are some bright orange blocks here.
+  Don't worry about those :)
+  You will learn about those later!
+
+Here are some instructions, when it moves up, down, left, and right, make sure to move the cat at that direction by 50.
+
+When you move the cat left to right, make sure to change the pointed direction!
+*Note that this exercise does not use the direction block :(

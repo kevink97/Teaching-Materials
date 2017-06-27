@@ -1,0 +1,8 @@
+### Graphics Effect Teaching Material
+
+This exercise is to teach the students how to resize, move to front, and show the sprite.
+
+This exercise is done by playing "hide and seek" with the sprite.
+The sprite will try to hide itself amongst the christmas tree and the student will have to hack their way to make the sprite visible.
+
+Make sure to teach them about positioning the sprite and how to show and hide. and adjust the size!!
