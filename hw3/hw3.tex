@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amsfonts, amsthm, amssymb}  % Some math symbols
+\usepackage{enumerate}
+\usepackage{fullpage}
+
+\usepackage[x11names, rgb]{xcolor}
+\usepackage{tikz}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usetikzlibrary{snakes,arrows,shapes}
+
+\usepackage{listings}
+\usepackage{array}
+\usepackage{mathtools}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\pagestyle{empty}
+
+\def\indented#1{\list{}{}\item[]}
+\let\indented=\endlist
+
+\newcounter{questionCounter}
+\newenvironment{question}[2][\arabic{questionCounter}]{%
+    \addtocounter{questionCounter}{1}%
+    \setcounter{partCounter}{0}%
+    \vspace{.25in} \hrule \vspace{0.5em}%
+        \noindent{\bf #2}%
+    \vspace{0.8em} \hrule \vspace{.10in}%
+}{}
+
+\newcounter{partCounter}[questionCounter]
+\renewenvironment{part}[1][\alph{partCounter}]{%
+    \addtocounter{partCounter}{1}%
+    \vspace{.10in}%
+    \begin{indented}%
+       {\bf (#1)} %
+}{\end{indented}}
+
+%%%%%%%%%%%%%%%%% Identifying Information %%%%%%%%%%%%%%%%%
+%% This is here, so that you can make your homework look %%
+%% pretty when you compile it.                           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\myhwname}{Homework 3}
+\newcommand{\mysection}{CS Fundamentals: Scratch Visuals [due Tuesday]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+    {\Large \myhwname} \\
+    \mysection \\
+    \today
+\end{center}
+
+%%%%%%%%%%%%%%%%% PROBLEM 1: Probability Review %%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hide the Cat! [Expected Duration: 15 - 60 min]}
+\textbf{If you have any questions about the directions or any blocks you have not used before, let me know via email or text!}\\
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}\\
+Again, I would \textbf{strongly recommend installing the \href{https://scratch.mit.edu/scratch2download/}{offline version of Scratch 2}} for future projects.\\\\
+In last class, we used some ``Looks'' blocks to find the cat. This time, you will build a program that hides it! Since we used a lot of the blocks in the ``Looks'' category in class, I will not give you specific directions. I will only give you specific blocks you will need for each event (There is only 2 events).I have provided a YouTube video \textbf{\href{https://youtu.be/Ctk1z6EHQrg}{(CLICK HERE!)}} to help guide you.\\
+Do your best and have fun!\\
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}\\
+Here are the list of blocks you need from the ``looks'' category (\textbf{these are the only blocks you need})! You should figure out the order, and where each block goes in each event (orange block).\\\\
+\textbf{Note: all of the cheat keys you made works! So, you can play around with those to test your hidden cat out!}\\
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+\begin{enumerate}
+\item When Flag Clicked
+\begin{enumerate}[a.]
+\item go back $\rule{0.5cm}{0.15mm}$ layers
+\item go to front
+\item say $\rule{0.5cm}{0.15mm}$ for $\rule{0.5cm}{0.15mm}$ secs
+\item set size to $\rule{0.5cm}{0.15mm}$\%
+\item show
+\end{enumerate}
+\end{enumerate}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+\begin{enumerate}
+\item When this sprite clicked
+\begin{enumerate}[a.]
+\item go back $\rule{0.5cm}{0.15mm}$ layers
+\item go to front
+\item hide
+\item say $\rule{0.5cm}{0.15mm}$ for $\rule{0.5cm}{0.15mm}$ secs
+\item set size to $\rule{0.5cm}{0.15mm}$\%
+\item think $\rule{0.5cm}{0.15mm}$ for $\rule{0.5cm}{0.15mm}$ secs
+\end{enumerate}
+\end{enumerate}
+\end{document}

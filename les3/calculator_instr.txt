@@ -1,0 +1,18 @@
+teaching:
+
+les3:
+variables!
+
+variables are basically ways for the computer to remember values and keep track of things.
+
+
+Like how you can keep track of how many dots there were after i erase them, computers can do the same.
+
+We will try using variables to build a calculator!
+
+ops = operators
+
+prev = previous numbers.
+
+right now, our calculator can only do 2 number calculation.
+You will modify the calculator later so that it can continue calculation with more than 2 numbers.
