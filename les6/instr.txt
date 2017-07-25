@@ -1,0 +1,11 @@
+Key purpose of this exercise:
+- Usage of real time data and using other people's code to make VERY cool things!
+
+
+Make sure to use these extensions:
+https://ericrosenbaum.github.io/spotify-extension/extension.js
+http://sayamindu.github.io/scratch-extensions/text-to-speech/text_to_speech_extension.js
+https://khanning.github.io/scratch-weather-extension/weather_extension.js
+
+And do this on the experimental website:
+scratchx.org/#scratch
