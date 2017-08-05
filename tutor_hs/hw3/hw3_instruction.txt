@@ -1,0 +1,71 @@
+HW3
+
+Content:
+- Lists
+- Strings
+
+Review - Lists:
+Creating a List:
+  l1 = list() # creates an empty list and saves it into variable l
+  l2 = ['a', 'b', 1] # creates a list with content 'a', 'b', and 1 in that order.
+Accessing List:
+  l2[0] #accesses the l2 array at position (index) 0... first element
+  x = l2[0] # gets the first element (in this example 'a'), and saves it to x.
+            # x is now 'a'
+Length/size of a list:
+  len(l2) # gets the length of the list
+  y = len(l2) # gets the length of the list and stores it in to y.
+              # y is now 3
+Adding elements to the end (append):
+  l1.append(3) # appends the value 3 to the end of the l2 list
+               # l1 is now [3]
+Inserting elements to a particular position (insert):
+  l1.insert(0, 5) # inserts the value 5 at the position 0 (beginnning of the list)
+                  # l1 is now [1, 3]
+Extending a list:
+  l1.extend(l2) # add elements of l2 to the end of l1.
+                # l1 = [1, 3, 'a', 'b', 1]
+                # note: l2 does not change
+Get the position of a particular element:
+  l1.index(1) # gets the first occurence of the value 1...so, list.index(1) would give us 0.
+Removing elements by element:
+  l1.remove(1) # removes the first occurance of the element 1.
+                # l1 = [3, 'a', 'b', 1] 
+Sorting lists:
+  l3 = [5, 3, 2, 4, 1]
+  l3.sort() # this will sort the numbers from smallest to biggest
+            # l3 = [1,2,3,4,5]
+Reverse list:
+  l3.reverse() # this will reverse the elements in the list
+              # l3 = [5, 4, 3, 2, 1]
+Remove element by index:
+  z = l3.pop(3) # this will pop the 4th element in the list and save the element into z
+                # z = 2 AND l3 = [5, 4, 3, 1]
+  c = l3.pop() # this will remove the last element and save the element into c
+              # c = 1 AND l3 = [5, 4, 3]
+
+String review:
+Lower casing the entire string:
+  s = "HELLO"
+  s.lower() # s is now "hello"
+Upper casing the string:
+  s.upper() # s is not "HELLO"
+Check what character is at the index:
+  c = s[1] # c is "E"
+Replace all occurence of a string with somethign else:
+  s.replace("L", "K") # s is not HEKKO
+Split the string by a delimeter and put it into a list:
+  s2 = "Hi I am Bob"
+  a = s2.split(" ") # a is now ["hi", "I", "am", "Bob"]
+
+Below are some things you should code up! Do your best! It uses stuff we learned before and Strings and Lists!
+
+
+-------------------------PROBLEMS---------
+PHONE DIRECTORY APP
+This will be a phone directory app where we can retrieve phone numbers of people by name
+  and retrieve people's name by phone number.
+
+Work on this on hw2-phone.py
+
+Do as told in the code file. REPLACE TODO with your code!

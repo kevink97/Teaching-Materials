@@ -1,0 +1,40 @@
+Review hw.
+
+Teach how to run files and how python scripts actually work. Just an overview tho to keep the content from being too complex.
+- use ``python3 code.py'' -> helps run the file.
+- python3 is a command. (so is python) that tells the computer to run the following file as a python code.
+- what python does is read line by line like a human!
+- you can write python script in any text editor... I strongly recommend sublime or vscode because they are really nice :) and yea. they are just nice. lot's of features.
+
+Learn about user input
+- input()
+take an input, and return back what the user said.
+-> Type something! I'll copy you: <text>
+- <text>
+
+try doing a math function
+-> give a value for x for this equation f(x) = 5x + 2: x = <text>
+- f(<text>) = [calculated value]
+
+g(x) = x^2 + 1:q
+
+
+
+learn about comments, booleans, if statements, comparison, logical operators. Short circuit evaluation for logical operators (if first item is true for an or logical operator, no point of evaluating the second item)
+# <- this is how your comment! You need this for every line of comment :)
+
+I stated that there are 3 types: float, int, and string.
+There is actually one more... it's called a boolean.
+Boolean is named after this one guy. but you dont need to know about it.
+a boolean type are simply true and false value!
+In python, you say True for a true, and False for a false.
+
+Inequalities:
+comparison!
+==, <=, <, etc.: value comparison
+is, is not... will go over later (object comparision)
+not is how you say something is not something :)
+
+or, and and: logical operator! cool stuff.
+
+for/while/function

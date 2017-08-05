@@ -1,0 +1,38 @@
+HW2
+
+Content:
+- if, elif, else
+- boolean
+- logical operator (and/or/not)
+- input
+- running your python code (python3 hw2.py)
+- inequality
+
+Below are the instructions for the code I want you to write.
+0. Save your hw2.py file on the Desktop.
+1. Write a line of code that prints: "Hi. I am a pretty cool calculator".
+2. Write a line of code that asks the user "Would you like to add(a), multiply(m), or square(s)"
+      and save the user's answer into a variable called, operation.
+
+3. if the user entered a or m (add or multiply respectively),
+      write a line of code that asks the user: "Tell me the first number"
+        and save the user's response into a variable called, first.
+      AND
+      write a line of code that asks the user: "Tell me the second number"
+        and save the user's response into a variable called, second.
+      THEN
+      do the operations specified by the user (add or multiply)
+        then print it out like this: "Here is your answer: [answer]".
+4. if the user entered s (square),
+      write a line of code that asks the user: "Tell me the number to square"
+        and save the user's response into a variable called, num.
+      THEN
+      do the operation specified by the user (square)
+        then print it out like this: "Here is your answer: [answer]".
+
+5. It's time to run your code!
+    Go to the command line and go to the file that your python code is at.
+    For example, if your python code is on the Desktop, type (with out the less than sign):
+        > cd Desktop
+        > python3 hw2.py
+    Make sure everything is working properly!
