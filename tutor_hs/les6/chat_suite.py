@@ -3,13 +3,13 @@ from client import ChatClient
 import threading
 import os
 
-HOST = 'attu4.cs.washington.edu' # 'localhost' works
+HOST = 'attu1.cs.washington.edu' # 'localhost' works
 PORT = 3333
 
 prev = ''
 
 def run_server(port=PORT):
-    server = ChatServer(PORT)
+    server = ChatServer(PORT, '0.0.0.0')
     server.run()
 
 def get_prev_msg():
@@ -36,6 +36,7 @@ def always_listen(username, port=PORT):
 
 def start_client(username, port=PORT):
     threading.Thread(target=always_listen, args=[username]).start()
+    print(HOST)
     client = ChatClient(username, port, HOST)
     return client
 
