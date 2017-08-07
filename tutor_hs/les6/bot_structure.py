@@ -20,7 +20,7 @@ while True:
         msg2 = get_prev_msg()
         # wait til the input is in the correct format
         correct = False
-        while (!correct):
+        while (not correct):
             time.sleep()
             msg2 = get_prev_msg()
         # we got the correct format

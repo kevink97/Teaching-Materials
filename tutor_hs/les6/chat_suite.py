@@ -3,7 +3,7 @@ from client import ChatClient
 import threading
 import os
 
-HOST = 'attu3.cs.washington.edu' # 'localhost' works
+HOST = 'attu4.cs.washington.edu' # 'localhost' works
 PORT = 3333
 
 prev = ''
